@@ -1,0 +1,39 @@
+body {
+    background: #fff8e7;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #6b2c16;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #e60012;
+    color: #fff;
+    padding: 16px 0;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+}
+button {
+    background: #ffe066;
+    border: 2px solid #e60012;
+    color: #e60012;
+    padding: 16px 32px;
+    margin: 16px;
+    font-size: 1.2em;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #ffd700;
+}
+#ramen_result {
+    margin-top: 32px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+#comment {
+    margin-top: 16px;
+    font-size: 1em;
+    color: #007e33;
+}
